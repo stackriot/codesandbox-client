@@ -76,6 +76,7 @@ const getDiff = (a, b) => {
       diff[p] = {
         code: b[p].code,
         path: p,
+        isBinary: b[p].isBinary,
       };
     });
 
